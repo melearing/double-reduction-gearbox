@@ -35,7 +35,7 @@ fprintf('该电动机的参数为%d r/min \n ',nm)
 i=nm/nw;
 fprintf('总传动比i：%d \n',i)
 %分配V带传动比i0 和齿轮传动比i1、i2
-这里i0 = 1;
+i0 = 1;
 i1=6.3;
 i2=3.55;
 fprintf('V带传动比i0为%d \n 齿轮传动比i1为 %d 、i2为 %d \n')
